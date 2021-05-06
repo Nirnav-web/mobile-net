@@ -1,0 +1,57 @@
+body {
+    font-family: 'Antonio', sans-serif;
+    background-color:red;
+    color: yellow;
+}
+.header_div {
+    background: yellow;
+    color: red;
+}
+.header_div img{
+    width: 100px;
+    border-radius: 100px;
+}
+.main_div {
+    background: tomato;
+    padding: 10px;
+    margin-top: 15px;
+    border: 3px solid red;
+}
+.main_div label {
+    background: red;
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+#camera,#result{
+    border: 2px solid white;
+    width: 310px;
+    height: 300px;
+}
+.main_div button {
+    width: 310px;
+    font-size: 15px;
+    border: 1px solid;
+    color: red;
+}
+.footer_div {
+    margin-bottom: 60px;
+}
+.footer_div h4{
+    background: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+.footer_div img {
+    width: 70px;
+}
+.copy_right_footer {
+    position: fixed;
+    color: yellow;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    line-height: 3;
+    text-align: center;
+    top: 550px;
+}
