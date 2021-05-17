@@ -22,12 +22,12 @@ Webcam.attach('#camera');
      img=document.getElementById("captured_img");
      classifier.classify(img,gotResult())
  }
-function gotResult(error,result){
+function gotResult(error,results){
     if(error){
         console.error(error)
     }
     else{
-        console.log(result);
-        document.getElementById("object_name").innerHTML=result[0].label;
+        console.log(results);
+        document.getElementById("object_name").innerHTML=results[0].label;
     }
 }
